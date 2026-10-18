@@ -1,27 +1,31 @@
-# JabeeWorks AI Company
+# JabeeWorks AI会社 運営方針
 
-Status: planning / no autonomous jobs enabled.
+**現状：準備段階。AIの定期自動実行や販売はまだ開始していません。**
 
-Goal: stable JPY 20,000 monthly profit after platform fees and operating expenses, before tax. Initial added fixed-cost target: JPY 0.
+## 目標
+- まずは手数料・運営経費を差し引いた税引前利益で月2万円を目指す
+- 初期の追加固定費は0円を目標とする
+- オーナーは原則iPhoneで指示・確認・承認する
+- 自宅PCの常時起動を必要としないクラウド運用を目指す
 
-Operating model: owner uses iPhone; cloud services perform scheduled work. All external publication, customer messages, payments, contracts, pricing changes and paid API activation require owner approval.
+## AI部署
+| 部署 | 役割 |
+|---|---|
+| 経営企画部 | 事業の優先順位、収益評価、改善・撤退案 |
+| 市場調査部 | 需要・競合・販売価格の調査 |
+| 商品開発部 | ツール・テンプレートの制作とテスト |
+| 販売促進部 | 商品説明、販促案、反応分析 |
+| 品質管理部 | 動作、安全性、利用規約の確認 |
+| 経理・管理部 | 売上、手数料、返金、経費、利益の集計 |
 
-## Departments
-- Strategy: prioritize experiments, review profit and risks.
-- Research: gather market evidence and competitors.
-- Product: build and test downloadable tools and templates.
-- Marketing: draft listings and measure conversion.
-- QA: security, functionality and terms review.
-- Finance: reconcile sales, fees, refunds and operating costs.
+## 最初の商品候補
+**CSV整形・変換ツール**。日本語のExcelでも使いやすいCSV出力を想定します。これは仮説段階で、需要が確認された商品ではありません。
 
-## First product candidate
-CSV cleanup and normalization utility with Japanese Excel-friendly output. This is a hypothesis, not validated demand. No product is published yet.
+## 仕事の流れ
+1. 市場調査部が需要を調べ、根拠付きで商品案を提出
+2. 商品開発部が独立した作業領域で試作品を制作
+3. 品質管理部が自動テストとリスク確認を実施
+4. オーナーが公開・販売などの重要な実行を承認
+5. 結果を記録し、継続・改善・撤退を判断
 
-## Workflow
-1. Research produces a proposal and evidence.
-2. Product develops in an isolated directory/branch.
-3. QA runs automated checks.
-4. Owner approves publication and any external actions.
-5. Record outcomes and evaluate continuation.
-
-No credentials or customer personal data should be committed to Git.
+**注意：** APIキー、パスワード、顧客の個人情報はGitHubに保存しません。
