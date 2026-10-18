@@ -1,13 +1,17 @@
-# Initial backlog
+# JabeeWorks 初期タスク一覧
 
-- [ ] Research 10 competing CSV cleanup tools/templates and their sales channels; record evidence and date.
-- [ ] Interview or validate at least 3 target use cases through public signals (no unsolicited messaging).
-- [ ] Specify first downloadable CSV utility and clear support boundaries.
-- [ ] Build a browser-based prototype with tests and sample files.
-- [ ] Run QA for encodings, malformed CSV, formula injection and large files.
-- [ ] Draft listing, license, FAQ and setup instructions for approval.
-- [ ] Choose compliant storefront and verify its digital-delivery terms.
-- [ ] Implement scheduled report only after execution cost and permission review.
+## 第1週の優先タスク
+- [ ] CSV整形ツールや類似商品の競合を10件調査し、価格・販売場所・調査日を記録
+- [ ] 公開情報から想定顧客の具体的な困りごとを3件以上検証
+- [ ] 最初のCSVツールの仕様と、サポート対象外の範囲を決定
+- [ ] ブラウザで動く試作品、テスト、サンプルファイルを制作
+- [ ] 文字コード、CSVの不正データ、数式注入、大容量ファイルをテスト
+- [ ] 商品説明、利用条件、よくある質問、操作マニュアルを準備
+- [ ] 販売先のデジタル商品規約と納品方法を確認
+- [ ] 定期実行の費用・権限を確認してから自動レポートを設定
 
-## Weekly metrics
-Revenue, refunds, platform fees, API/hosting costs, profit, owner time, views, conversions, support incidents.
+## 毎週確認する指標
+売上／返金／販売手数料／AI利用料・サーバー代／税引前利益／オーナーの作業時間／閲覧数／購入率／問い合わせ・不具合件数
+
+## 現在の状態
+管理文書のみ作成済み。商品の完成、公開、売上、自動実行の開始はまだです。
