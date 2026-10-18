@@ -1,20 +1,23 @@
-# Approval policy
+# JabeeWorks 承認ルール
 
-## Autonomous and permitted
-- Read public information in accordance with website terms.
-- Draft documentation, code, test cases and listing copy.
-- Run local or CI tests with no external side effects.
-- Record research and proposals in repository files.
+## AIが承認なしで進めてよい作業
+- サイトの利用規約に従った公開情報の調査
+- 商品説明、資料、プログラム、テストの下書き
+- 外部への影響がない開発・テスト
+- GitHubへの調査記録、提案書、作業結果の保存（作業用ブランチ）
 
-## Explicit owner approval required
-- Publish or modify live products, websites or listings.
-- Send messages or contact customers, submit orders or contracts.
-- Spend money, enable billable APIs, or change prices.
-- Upload or disclose private/customer information.
-- Delete production data, change credentials or permissions.
+## オーナーの明示的な承認が必要な作業
+- 商品・Webサイト・販売ページの公開や変更
+- 顧客への連絡、注文、契約、返金
+- 費用の発生するAPIやサービスの有効化、価格変更
+- 顧客情報など非公開情報の外部送信
+- 本番データの削除、認証情報やアクセス権限の変更
+- 本番用ブランチへの反映
 
-## Safety limits
-- No scraping behind authentication or bypassing anti-bot protections.
-- No automatic purchases, trades or transfers.
-- No unsupervised commits to the production branch.
-- Default deny on uncertain actions; log a proposal instead.
+## 安全上のルール
+- ログイン制限やアクセス防止策を回避して情報収集しない
+- 自動購入、投資取引、送金を行わない
+- 判断に迷う作業は実行せず、承認依頼として記録する
+- 有料APIの利用前に費用上限を確認する
+
+**運用原則：** AIは低リスクの準備作業を積極的に進め、外部への影響がある行動は承認を待ちます。
